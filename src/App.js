@@ -4,6 +4,7 @@ import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Creater from './components/creater';
+import { Form } from './components/Form';
 
 
 import React from 'react'
@@ -18,6 +19,7 @@ import React from 'react'
     <Routes>
         <Route path="/" element={<Game />} />
         <Route path="/creater" element={< Creater/>}/>
+        <Route path="/form" element={< Form/>}/>
     </Routes>
 
     </Router>

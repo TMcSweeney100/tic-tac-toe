@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Creater from './creater';
 import "./navbar.css"
+import Form from './Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -26,6 +27,9 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/creater">Creater</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/form">Fill in the form</Link>
             </li>
           </ul>
         </div>
