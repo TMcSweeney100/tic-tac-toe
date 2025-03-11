@@ -15,6 +15,7 @@ import React from 'react'
     <Router>
 
     <Navbar />
+   
     
     <Routes>
         <Route path="/" element={<Game />} />
